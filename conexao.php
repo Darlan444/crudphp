@@ -1,10 +1,10 @@
 <?php
     //Conexão com banco de dados
     function connection(){
-        $servername = "sql111.epizy.com";
-        $username   = "epiz_26106940";
-        $password   = "8dJBDvcI4g2pr0";
-        $db         = "epiz_26106940_loja";
+        $servername = "localhost";
+        $username   = "root";
+        $password   = "";
+        $db         = "crudphp";
 
         try {
         $conn = new PDO("mysql:host=$servername;dbname=$db;charset=utf8", $username, $password);
