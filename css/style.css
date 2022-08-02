@@ -38,6 +38,8 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: center;  
+    border-bottom: solid #a52a2a;
+    border-width: 0.1rem;
 }
 
 /**MENU NAV**/
