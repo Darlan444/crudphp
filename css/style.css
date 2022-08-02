@@ -5,6 +5,33 @@
     box-sizing: border-box;
 }
 
+/**RODAPÉ**/
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-top: solid #a52a2a;
+    border-width: 0.1rem;
+    margin: 0.4rem;
+    width: 100vw;
+    height: 9vh;
+}
+.img-footer{
+    width: 15rem;
+    height: 5rem;
+    padding: 1rem;
+}
+.a-footer{
+    margin: 1rem;
+    font-family: 'Overpass', sans-serif;
+}
+.span-footer{
+    font-size: large;
+    font-family: 'Overpass', sans-serif;
+    text-decoration: underline;
+}
+
 /**CABEÇALHOR**/
 header{
     display: flex;
