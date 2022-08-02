@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Overpass:wght@100&display=swap');
+*{
+    margin: 0;
+    text-decoration: none;
+}
+/**CABEÇALHOR**/
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+/**MENU NAV**/
+.nav{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 2rem;
+    width: 100vw;
+    height: 9vh;
+    border: solid black;
+}
+/**LOGO NAV**/
+.logo-header{
+    width: 30vw;
+    height: 9vh;
+    margin-left: 2rem;
+    justify-content: flex-start;
+}
+/**ITEM NAV**/
+.nav .item-nav{
+    justify-content: right;
+    font-size: larger;
+    font-family: 'Overpass', sans-serif;
+}
