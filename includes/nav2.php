@@ -3,7 +3,7 @@ include 'header.php';
 ?>
 
 <header class="header">
-    <a href="./index.php">
+    <a href="../index.php">
         <img class="logo-header" src="../img/REDLINE2.png" alt="LOGO">
     </a>
     <nav class="nav">

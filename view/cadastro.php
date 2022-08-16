@@ -25,7 +25,9 @@ include '../config/conexao.php';
 
   <main class="form-main">
     <section class="form-section">
-      <form class="form" method="POST" action="#">
+      <form class="form"  >
+
+        <span class="span-form">CADASTRO</span>
 
         <label class="label-form" for="input-nome">Nome do Produto</label><br>
         <input class="input-form" name="input-nome" id="input-nome" type="text"><br>
@@ -34,15 +36,17 @@ include '../config/conexao.php';
         <input class="input-form" name="input-marca" id="input-marca" type="text"><br>
 
         <label class="label-form" for="input-valor">Valor</label><br>
-        <input class="input-form" name="input-valor" id="input-valor" type="text"><br>
+        <input class="input-form" name="input-valor" id="input-valor" type="text" placeholder="R$ 000,00"><br>
 
         <label class="label-form" for="input-qtd">Quantidade</label><br>
-        <input class="input-form" name="input-qtd" id="input-qtd" type="number">
+        <input class="input-form" name="input-qtd" id="input-qtd" type="number" min="1">
 
         <button class="btn-form">Cadastrar</button>
 
       </form>
     </section>
   </main>
+
+<?php include"../includes/footer2.php";?>  
 
 </body>

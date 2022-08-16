@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Overpass:wght@100&display=swap');
-*{
+
+* {
     margin: 0;
     text-decoration: none;
     box-sizing: border-box;
 }
 
 /**RODAPÉ**/
-.footer{
+.footer {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -17,33 +18,36 @@
     width: 100vw;
     height: 9vh;
 }
-.img-footer{
+
+.img-footer {
     width: 15rem;
     height: 5rem;
     padding: 1rem;
 }
-.a-footer{
+
+.a-footer {
     margin: 1rem;
     font-family: 'Overpass', sans-serif;
 }
-.span-footer{
+
+.span-footer {
     font-size: large;
     font-family: 'Overpass', sans-serif;
     text-decoration: underline;
 }
 
 /**CABEÇALHO**/
-header{
+header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;  
+    justify-content: center;
     border-bottom: solid #a52a2a;
     border-width: 0.1rem;
 }
 
 /**MENU NAV**/
-.nav{
+.nav {
     display: flex;
     flex-direction: row;
     gap: 4rem;
@@ -55,7 +59,7 @@ header{
 }
 
 /**LOGO NAV**/
-.logo-header{
+.logo-header {
     width: 30vw;
     height: 9vh;
     margin-left: 2rem;
@@ -63,7 +67,7 @@ header{
 }
 
 /**ITEM NAV**/
-.item-nav{
+.item-nav {
     justify-content: right;
     font-size: larger;
     font-family: 'Overpass', sans-serif;
@@ -71,6 +75,7 @@ header{
     width: 10vw;
     text-align: center;
 }
+
 .item-nav::before {
     content: '';
     display: block;
@@ -87,14 +92,14 @@ header{
 }
 
 /**MAIN**/
-.principal{
+.principal {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 /**SEÇÃO CARDS**/
-.section-principal{
+.section-principal {
     display: flex;
     flex-wrap: wrap;
     width: 70vw;
@@ -106,7 +111,7 @@ header{
 }
 
 /**CARD**/
-.produto{
+.produto {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,7 +124,7 @@ header{
     border-radius: 2.2rem;
 }
 
-.img-produto{
+.img-produto {
     position: relative;
     top: 0;
     max-width: 20rem;
@@ -128,9 +133,10 @@ header{
     min-height: 25rem;
     margin: 0;
     padding: 0.1rem;
-    
+
 }
-.span-produto{
+
+.span-produto {
     position: relative;
     max-width: 20rem;
     min-width: 20rem;
@@ -143,7 +149,7 @@ header{
     margin: 0.5rem;
 }
 
-.img-card{
+.img-card {
     position: absolute;
     max-width: 20rem;
     min-width: 20rem;
@@ -158,7 +164,7 @@ header{
     border-bottom: solid 1px red;
 }
 
-.span-card{
+.span-card {
     position: absolute;
     max-width: 20rem;
     min-width: 20rem;
@@ -167,12 +173,12 @@ header{
     text-align: center;
 }
 
-.btn-card{
+.btn-card {
     position: absolute;
     width: 8rem;
     max-width: 10rem;
     height: 2.12rem;
-    max-height: 3rem;  
+    max-height: 3rem;
     background-color: #ff8f8f;
     color: #fff;
 }
@@ -180,15 +186,16 @@ header{
 
 
 /* CADASTRO*/
-.form-main{
+.form-main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 91vh;
+    height: 90vh;
 }
-.form{
+
+.form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -197,20 +204,58 @@ header{
     border-radius: 1rem;
     width: 50vw;
     height: 60vh;
+    margin: 1rem;
+    padding: 1rem;
+}
+.span-form{
+    margin: 1rem;
+    font-family: 'Overpass', sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    border-bottom: solid #a52a2a .1rem;
+}
+
+.label-form {
+    font-family: 'Overpass', sans-serif;
+    margin: 1rem;
+    position: relative;
+    margin-bottom: -1rem;
 }
 
 
-.btn-form{
+.input-form {
+    margin:-0.2rem;
+    border: solid #AAA;
+    border-width: 0.1rem;
+    border-radius: 4px;
+    font: inherit;
+    color: #AAA;
+    background-color: transparent;
+    outline: 2px solid #FFF;
+    min-width: 25rem;
+    min-height: 2rem;
+    text-align: center;
+}
+
+#input-valor{
+    width: 10rem;
+}
+#input-qtd{
+    width: 10rem;
+}
+
+.btn-form {
     margin: 2rem;
+    margin-bottom: 1rem;
     background-color: #a52a2a;
     color: #fff;
-    width: 9rem;
-    height: 2rem;
+    min-width: 9rem;
+    min-height: 2rem;
     border: none;
     border-radius: 1rem;
 }
-.btn-form:hover{
+
+.btn-form:hover {
     background-color: #c43636;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, .85);
 }
-
