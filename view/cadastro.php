@@ -4,6 +4,7 @@ include '../config/conexao.php';
 
 <!DOCTYPE html>
 <html lang="PT-BR">
+
 <head>
 
   <meta charset="UTF-8">
@@ -18,12 +19,24 @@ include '../config/conexao.php';
 
 <body>
 
-<main class="form-main">
+  <main class="form-main">
     <section class="form-section">
-        <div class="form">
+      <form class="form">
 
-        </div>
+        <label class="label-form" for="input-nome">Nome do Produto</label><br>
+        <input class="input-form" name="input-nome" id="input-nome" type="text"><br>
+
+        <label class="label-form" for="input-marca">Marca</label><br>
+        <input class="input-form" name="input-marca" id="input-marca" type="text"><br>
+
+        <label class="label-form" for="input-valor">Valor</label><br>
+        <input class="input-form" name="input-valor" id="input-valor" type="text"><br>
+
+        <label class="label-form" for="input-qtd">Quantidade</label><br>
+        <input class="input-form" name="input-qtd" id="input-qtd" type="number">
+
+      </form>
     </section>
-</main>
+  </main>
 
 </body>
