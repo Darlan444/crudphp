@@ -176,3 +176,41 @@ header{
     background-color: #ff8f8f;
     color: #fff;
 }
+
+
+
+/* CADASTRO*/
+.form-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 91vh;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, .25);
+    border-radius: 1rem;
+    width: 50vw;
+    height: 60vh;
+}
+
+
+.btn-form{
+    margin: 2rem;
+    background-color: #a52a2a;
+    color: #fff;
+    width: 9rem;
+    height: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+.btn-form:hover{
+    background-color: #c43636;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, .85);
+}
+

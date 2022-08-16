@@ -17,11 +17,15 @@ include '../config/conexao.php';
 
 </head>
 
-<body>
+<body class="bd-cadastro">
+
+  <?php
+    include "../includes/nav2.php";
+  ?>
 
   <main class="form-main">
     <section class="form-section">
-      <form class="form">
+      <form class="form" method="POST" action="#">
 
         <label class="label-form" for="input-nome">Nome do Produto</label><br>
         <input class="input-form" name="input-nome" id="input-nome" type="text"><br>
@@ -34,6 +38,8 @@ include '../config/conexao.php';
 
         <label class="label-form" for="input-qtd">Quantidade</label><br>
         <input class="input-form" name="input-qtd" id="input-qtd" type="number">
+
+        <button class="btn-form">Cadastrar</button>
 
       </form>
     </section>
