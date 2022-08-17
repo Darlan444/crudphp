@@ -25,21 +25,21 @@ include '../config/conexao.php';
 
   <main class="form-main">
     <section class="form-section">
-      <form class="form"  >
+      <form class="form" method="POST" action="../model/cadastro.php">
 
         <span class="span-form">CADASTRO</span>
 
-        <label class="label-form" for="input-nome">Nome do Produto</label><br>
-        <input class="input-form" name="input-nome" id="input-nome" type="text"><br>
+        <label class="label-form" for="nome_produto">Nome do Produto</label><br>
+        <input class="input-form" name="nome_produto" id="nome_produto" type="text"><br>
 
-        <label class="label-form" for="input-marca">Marca</label><br>
-        <input class="input-form" name="input-marca" id="input-marca" type="text"><br>
+        <label class="label-form" for="marca">Marca</label><br>
+        <input class="input-form" name="marca" id="marca" type="text"><br>
 
-        <label class="label-form" for="input-valor">Valor</label><br>
-        <input class="input-form" name="input-valor" id="input-valor" type="text" placeholder="R$ 000,00"><br>
+        <label class="label-form" for="valor">Valor</label><br>
+        <input class="input-form" name="valor" id="valor" type="number" placeholder="R$ 000,00"><br>
 
-        <label class="label-form" for="input-qtd">Quantidade</label><br>
-        <input class="input-form" name="input-qtd" id="input-qtd" type="number" min="1">
+        <label class="label-form" for="quantidade">Quantidade</label><br>
+        <input class="input-form" name="quantidade" id="quantidade" type="number" min="1">
 
         <button class="btn-form">Cadastrar</button>
 
