@@ -27,6 +27,7 @@ try {
     $sql->execute();
 
     echo "Produto cadastrado com sucesso!";
+    header('Location: ../index.php');
 
 } catch (PDOException $e) {
     echo "Error: " . $e->getMessage();
