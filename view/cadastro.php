@@ -25,7 +25,7 @@ include '../config/conexao.php';
 
   <main class="form-main">
     <section class="form-section">
-      <form class="form" method="POST" action="../model/cadastro.php">
+      <form class="form" method="POST" action="../model/cadastro-model.php">
 
         <span class="span-form">CADASTRO</span>
 
