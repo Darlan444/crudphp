@@ -39,7 +39,10 @@ include '../config/conexao.php';
         <input class="input-form" name="valor" id="valor" type="number" placeholder="R$ 000,00"><br>
 
         <label class="label-form" for="quantidade">Quantidade</label><br>
-        <input class="input-form" name="quantidade" id="quantidade" type="number" min="1">
+        <input class="input-form" name="quantidade" id="quantidade" type="number" min="1"><br>
+
+        <label class="label-form" for="img">Imagem</label><br>
+        <input class="input-form" name="img" id="img" type="text" placeholder="Link da imagem"><br>
 
         <button class="btn-form">Cadastrar</button>
 

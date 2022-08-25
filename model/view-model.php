@@ -21,10 +21,10 @@ try {
         echo '
             <div class="produto">
                 <div class="img-produto">
-                    <img class="img-card" src="../img/REDLINE.png" alt="img-produto">
+                    <img class="img-card" src="'.$v['img'].'" alt="img-produto">
                 </div>
                 <div class="span-produto">
-                    <span class="span-card">'.$v['nome_produto'].'</span>
+                    <span class="span-card">'.$v['id'].' - '.$v['nome_produto'].'</span>
                     <button class="btn-card" disabled="disabled">DETALHES</button>
                 </div>
             </div>';
