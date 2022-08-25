@@ -24,8 +24,9 @@ try {
                     <img class="img-card" src="'.$v['img'].'" alt="img-produto">
                 </div>
                 <div class="span-produto">
-                    <span class="span-card">'.$v['id'].' - '.$v['nome_produto'].'</span>
-                    <button class="btn-card" disabled="disabled">DETALHES</button>
+                    <span class="span-card">'.$v['nome_produto'].'</span></br>
+                    <span class="span-card2">Marca - '.$v['marca'].'</span></br>
+                    <span class="span-card3">Quantidade - '.$v['quantidade'].'</span></br>
                 </div>
             </div>';
 
