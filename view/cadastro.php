@@ -30,10 +30,10 @@ include '../config/conexao.php';
         <span class="span-form">CADASTRO</span>
 
         <label class="label-form" for="nome_produto">Nome do Produto</label><br>
-        <input class="input-form" name="nome_produto" id="nome_produto" type="text"><br>
+        <input class="input-form" name="nome_produto" id="nome_produto" type="text" spellcheck="true"><br>
 
         <label class="label-form" for="marca">Marca</label><br>
-        <input class="input-form" name="marca" id="marca" type="text"><br>
+        <input class="input-form" name="marca" id="marca" type="text" spellcheck="true"><br>
 
         <label class="label-form" for="valor">Valor</label><br>
         <input class="input-form" name="valor" id="valor" type="number" placeholder="R$ 000,00"><br>
