@@ -7,7 +7,7 @@ include 'header.php';
         <img class="logo-header" src="../img/REDLINE2.png" alt="LOGO">
     </a>
     <nav class="nav">
-        <a class="item-nav" href="./view/cadastro.php">Cadastrar Produto</a>
-        <a class="item-nav" href="./view/lista.php">Ver Cadastrados</a>
+        <a class="item-nav" href="../view/cadastro.php">Cadastrar Produto</a>
+        <a class="item-nav" href="../view/lista.php">Tabela de Produtos</a>
     </nav>
 </header>

@@ -8,6 +8,6 @@ include 'header.php';
     </a>
     <nav class="nav">
         <a class="item-nav" href="./view/cadastro.php">Cadastrar Produto</a>
-        <a class="item-nav" href="./view/lista.php">Tabela</a>
+        <a class="item-nav" href="./view/lista.php">Tabela de Produtos</a>
     </nav>
 </header>

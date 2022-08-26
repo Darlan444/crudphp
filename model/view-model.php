@@ -22,6 +22,7 @@ try {
             <div class="produto">
                 <div class="img-produto">
                     <img class="img-card" src="'.$v['img'].'" alt="img-produto">
+                    <span class="span-valor">R$ '.$v['valor'].'</span>
                 </div>
                 <div class="span-produto">
                     <span class="span-card">'.$v['nome_produto'].'</span></br>

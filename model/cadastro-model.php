@@ -24,7 +24,7 @@ try {
     $marca = $_POST["marca"];
     $valor = $_POST["valor"];
     $qtd = $_POST["quantidade"];
-    $qtd = $_POST["img"];
+    $img = $_POST["img"];
 
     $sql->execute();
 
