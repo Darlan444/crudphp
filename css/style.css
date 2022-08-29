@@ -18,18 +18,15 @@
     width: 100vw;
     height: 9vh;
 }
-
 .img-footer {
     width: 15rem;
     height: 5rem;
     padding: 1rem;
 }
-
 .a-footer {
     margin: 1rem;
     font-family: 'Overpass', sans-serif;
 }
-
 .span-footer {
     font-size: large;
     font-family: 'Overpass', sans-serif;
@@ -75,7 +72,6 @@ header {
     width: 10vw;
     text-align: center;
 }
-
 .item-nav::before {
     content: '';
     display: block;
@@ -86,7 +82,6 @@ header {
     width: 0%;
     transition: all ease-in-out 250ms;
 }
-
 .item-nav:hover::before {
     width: 10vw;
 }
@@ -124,7 +119,6 @@ header {
     border: solid 1px rgb(77, 77, 77);
     border-radius: 2.2rem;
 }
-
 .img-produto {
     position: relative;
     top: 0;
@@ -136,7 +130,6 @@ header {
     padding: 0.1rem;
 
 }
-
 .span-produto {
     position: relative;
     max-width: 20rem;
@@ -149,7 +142,6 @@ header {
     align-items: center;
     margin: 0.5rem;
 }
-
 .img-card {
     position: absolute;
     background-size: cover;
@@ -163,19 +155,17 @@ header {
     border-radius: 2.2rem;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
-    border-bottom: solid 1px rgb(255,0,0);
+    border-bottom: solid 1px rgb(255, 0, 0);
 }
-
-.span-valor{
+.span-valor {
     position: absolute;
     width: 6rem;
     right: 1rem;
     text-align: center;
     top: 94%;
-    border: solid 1px rgb(255,0,0);
+    border: solid 1px rgb(255, 0, 0);
     border-radius: 1rem;
 }
-
 .span-card {
     position: absolute;
     max-width: 20rem;
@@ -204,7 +194,6 @@ header {
     font-family: 'Overpass', sans-serif;
 }
 
-
 /* CADASTRO*/
 .form-main {
     display: flex;
@@ -214,7 +203,6 @@ header {
     width: 100vw;
     height: 90vh;
 }
-
 .form {
     display: flex;
     flex-direction: column;
@@ -227,24 +215,21 @@ header {
     margin: 1rem;
     padding: 1rem;
 }
-.span-form{
+.span-form {
     margin: 1rem;
     font-family: 'Overpass', sans-serif;
     font-weight: bolder;
     font-size: x-large;
     border-bottom: solid #a52a2a .1rem;
 }
-
 .label-form {
     font-family: 'Overpass', sans-serif;
     margin: 1rem;
     position: relative;
     margin-bottom: -1rem;
 }
-
-
 .input-form {
-    margin:-0.2rem;
+    margin: -0.2rem;
     border: solid #AAA;
     border-width: 0.1rem;
     border-radius: 4px;
@@ -256,14 +241,12 @@ header {
     min-height: 2rem;
     text-align: center;
 }
-
-#input-valor{
+#input-valor {
     width: 10rem;
 }
-#input-qtd{
+#input-qtd {
     width: 10rem;
 }
-
 .btn-form {
     margin: 2rem;
     margin-bottom: 1rem;
@@ -274,26 +257,60 @@ header {
     border: none;
     border-radius: 1rem;
 }
-
 .btn-form:hover {
     background-color: #c43636;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, .85);
 }
 
 /**TABELA**/
-
-.table-section{
+.table-section {
     width: 100vw;
     height: 50vh;
     margin-top: 1rem;
-    border: solid red;
     display: flex;
-    align-items: flex-start;
     justify-content: center;
+    align-items: flex-start;
+}
+.table-div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+}
+.table {
+    position: absolute;
+    max-width: 70vw;
+    min-width: 70vw;
+    border: solid 1px #c43636!important;
+}
+.codigo{
+    width: 10%;
+}
+.table-qtd{
+    width: 10%;
+}
+.table-valor{
+    width: 15%;
+}
+.table-nome{
+    width: 30%;
+}
+.table-marca{
+    width: 20%;
+}
+.table-act{
+    width: 15%;
+}
+th, td{
+    text-align: center !important;
 }
 
-.table{
-    width: 60vw;
-    display: table;
-
+/**TÍTULO TABELA**/
+.h1-lista{
+    font-family: 'Overpass', sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem;
+    border-bottom: solid 1px #a52a2a;
 }
