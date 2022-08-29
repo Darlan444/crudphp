@@ -1,6 +1,7 @@
 <?php
 include '../includes/header2.php';
 include '../includes/nav2.php';
+include '../model/lista-model.php';
 
 ?>
 
@@ -22,27 +23,9 @@ include '../includes/nav2.php';
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <th>1</th>
-                    <td scope="row">AA</td>
-                </tr>
-                <tr>
-                    <th>1</th>
-                    <td scope="row">AA</td>
-                </tr>
-                <tr>
-                    <th>1</th>
-                    <td scope="row">AA</td>
-                </tr>
-                <tr>
-                    <th>1</th>
-                    <td scope="row">AA</td>
-                </tr>
-                <tr>
-                    <th>1</th>
-                    <td scope="row">AA</td>
-                </tr>
-
+                <?php
+                    showLista();
+                ?>
             </tbody>
         </table>
 
