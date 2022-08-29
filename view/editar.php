@@ -12,7 +12,7 @@ include '../model/show-edit-model.php';
 
   <main class="form-main">
     <section class="form-section">
-      <form class="form" method="POST" action="../model/edit-model.php">
+      <form class="form" method="POST" action="../model/edt-model.php">
 
         <span class="span-form">EDITAR</span>
 

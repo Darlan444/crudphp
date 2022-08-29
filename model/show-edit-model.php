@@ -18,6 +18,7 @@ function showInfos()
         $result = $sql->setFetchMode(PDO::FETCH_ASSOC);
 
         foreach($sql->fetchAll() as $k=>$v) {
+            $id               = $v['id'];
             $nome_produto     = $v['nome_produto'];
             $marca            = $v['marca'];
             $valor            = $v['valor'];
@@ -25,7 +26,9 @@ function showInfos()
             $img              = $v['img'];
         } 
 
-        echo '  <label class="label-form" for="nome_produto">Nome do Produto</label><br>
+        echo '  <input class="id-edt" type="number" name="id" id="id" value="'.$id.'">
+        
+                <label class="label-form" for="nome_produto">Nome do Produto</label><br>
                 <input class="input-form" name="nome_produto" id="nome_produto" type="text" spellcheck="true" value="'.$nome_produto.'" required><br>
         
                 <label class="label-form" for="marca">Marca</label><br>

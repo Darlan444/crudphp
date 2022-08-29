@@ -314,3 +314,7 @@ th, td{
     margin: 2rem;
     border-bottom: solid 1px #a52a2a;
 }
+
+.id-edt{
+    display: none;
+}
