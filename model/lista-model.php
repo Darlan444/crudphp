@@ -22,7 +22,9 @@ function showLista()
                     <td scope="row">'.$v['marca'].'</td>
                     <td scope="row">R$ '.$v['valor'].'</td>
                     <td scope="row">'.$v['quantidade'].'</td>
-                    <td scope="row">ACT</td>
+                    <td scope="row">
+                        <a class="btn btn-info btn-md" href="../view/editar.php?id='.$v['id'].'"><i class="fa fa-pencil"></i></a>                            
+                        <a class="btn btn-danger btn-md" href="../model/delete.php" data-href="delete.php?id='.$v['id'].'" data-toggle="modal" data-target="#confirm-delete"><i class="fa fa-trash"></i></a></td>
                 </tr>';
         }
     } catch (PDOException $e) {
