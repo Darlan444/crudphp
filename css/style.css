@@ -5,7 +5,9 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-
+body{
+    width: auto;
+}
 /**RODAPÉ**/
 .footer {
     display: flex;
@@ -17,7 +19,7 @@
     margin: 0.4rem;
     width: 100vw;
     height: 9vh;
-    position: fixed;
+    position: relative;
     bottom: 0;
 }
 .img-footer {
@@ -93,7 +95,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 9vh;
 }
+
 
 /**SEÇÃO CARDS**/
 .section-principal {

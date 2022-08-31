@@ -33,6 +33,3 @@ include '../model/lista-model.php';
 
 </section>
 
-<?php
-    include '../includes/footer2.php';
-?>

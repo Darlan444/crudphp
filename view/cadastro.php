@@ -6,9 +6,10 @@ include '../includes/header2.php';
 <body class="bd-cadastro">
 
   <?php
-    include "../includes/nav2.php";
+  include "../includes/nav2.php";
   ?>
 
+  
   <main class="form-main">
     <section class="form-section">
       <form class="form" method="POST" action="../model/cadastro-model.php">
@@ -22,7 +23,8 @@ include '../includes/header2.php';
         <input class="input-form" name="marca" id="marca" type="text" spellcheck="true" required><br>
 
         <label class="label-form" for="valor">Valor</label><br>
-        <input class="input-form" name="valor" id="valor" type="number" step="0.01" placeholder="R$ 000,00" required><br>
+        <input class="input-form" name="valor" id="valor" type="text" placeholder="R$ 000,00" required><br>
+        <script src="../script/mask-valor.js"></script>
 
         <label class="label-form" for="quantidade">Quantidade</label><br>
         <input class="input-form" name="quantidade" id="quantidade" type="number" min="1" required><br>
@@ -36,6 +38,6 @@ include '../includes/header2.php';
     </section>
   </main>
 
-<?php include"../includes/footer2.php";?>  
+  <?php include "../includes/footer2.php"; ?>
 
 </body>

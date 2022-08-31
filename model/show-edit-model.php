@@ -35,8 +35,8 @@ function showInfos()
                 <input class="input-form" name="new_marca" id="new_marca" type="text" spellcheck="true" value="'.$marca.'" required><br>
         
                 <label class="label-form" for="new_valor">Valor</label><br>
-                <input class="input-form" name="new_valor" id="new_valor" type="new_number" step="0.01" placeholder="R$ 000,00" value="'.$valor.'" required><br>
-        
+                <input class="input-form" name="new_valor" id="new_valor" type="text" placeholder="R$ 000,00" value="'.$valor.'" required><br>
+
                 <label class="label-form" for="new_quantidade">Quantidade</label><br>
                 <input class="input-form" name="new_quantidade" id="new_quantidade" type="number" min="1" value="'.$quantidade.'" required><br>
         
@@ -49,5 +49,6 @@ function showInfos()
 }
 
 ?>
+<script src="../script/mask-valor.js"></script>
 
 
