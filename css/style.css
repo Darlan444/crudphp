@@ -303,6 +303,7 @@ header {
 }
 th, td{
     text-align: center !important;
+    vertical-align: middle;
 }
 
 /**TÍTULO TABELA**/
@@ -315,6 +316,7 @@ th, td{
     border-bottom: solid 1px #a52a2a;
 }
 
+/**ID PRA EDITAR**/
 .id-edt{
     display: none;
 }

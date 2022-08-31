@@ -24,7 +24,7 @@ include '../model/lista-model.php';
             </thead>
             <tbody>
                 <?php
-                    showLista();
+                showLista();
                 ?>
             </tbody>
         </table>
