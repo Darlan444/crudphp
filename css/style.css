@@ -17,6 +17,8 @@
     margin: 0.4rem;
     width: 100vw;
     height: 9vh;
+    position: fixed;
+    bottom: 0;
 }
 .img-footer {
     width: 15rem;
@@ -202,6 +204,7 @@ header {
     justify-content: center;
     width: 100vw;
     height: 90vh;
+    margin-top: -2rem;
 }
 .form {
     display: flex;
@@ -211,12 +214,14 @@ header {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, .25);
     border-radius: 1rem;
     width: 50vw;
-    height: 80vh;
+    height: 70vh;
+    margin-top: 0.2rem;
     margin: 1rem;
     padding: 1rem;
 }
 .span-form {
     margin: 1rem;
+    margin-top: 0.8rem;
     font-family: 'Overpass', sans-serif;
     font-weight: bolder;
     font-size: x-large;
@@ -224,7 +229,7 @@ header {
 }
 .label-form {
     font-family: 'Overpass', sans-serif;
-    margin: 1rem;
+    margin: 0.2rem;
     position: relative;
     margin-bottom: -1rem;
 }
@@ -248,7 +253,7 @@ header {
     width: 10rem;
 }
 .btn-form {
-    margin: 2rem;
+    margin: 1rem;
     margin-bottom: 1rem;
     background-color: #a52a2a;
     color: #fff;
