@@ -18,7 +18,7 @@ include '../model/show-edit-model.php';
 
             <?php showInfos();?>
 
-        <button class="btn-form">EDITAR</button>
+        <button class="btn-form" onclick="attProduto()">EDITAR</button>
 
       </form>
     </section>

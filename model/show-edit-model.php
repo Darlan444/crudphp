@@ -28,26 +28,25 @@ function showInfos()
 
         echo '  <input class="id-edt" type="number" name="id" id="id" value="'.$id.'">
         
-                <label class="label-form" for="nome_produto">Nome do Produto</label><br>
-                <input class="input-form" name="nome_produto" id="nome_produto" type="text" spellcheck="true" value="'.$nome_produto.'" required><br>
+                <label class="label-form" for="new_nome_produto">Nome do Produto</label><br>
+                <input class="input-form" name="new_nome_produto" id="new_nome_produto" type="text" spellcheck="true" value="'.$nome_produto.'" required><br>
         
-                <label class="label-form" for="marca">Marca</label><br>
-                <input class="input-form" name="marca" id="marca" type="text" spellcheck="true" value="'.$marca.'" required><br>
+                <label class="label-form" for="new_marca">Marca</label><br>
+                <input class="input-form" name="new_marca" id="new_marca" type="text" spellcheck="true" value="'.$marca.'" required><br>
         
-                <label class="label-form" for="valor">Valor</label><br>
-                <input class="input-form" name="valor" id="valor" type="number" step="0.01" placeholder="R$ 000,00" value="'.$valor.'" required><br>
+                <label class="label-form" for="new_valor">Valor</label><br>
+                <input class="input-form" name="new_valor" id="new_valor" type="new_number" step="0.01" placeholder="R$ 000,00" value="'.$valor.'" required><br>
         
-                <label class="label-form" for="quantidade">Quantidade</label><br>
-                <input class="input-form" name="quantidade" id="quantidade" type="number" min="1" value="'.$quantidade.'" required><br>
+                <label class="label-form" for="new_quantidade">Quantidade</label><br>
+                <input class="input-form" name="new_quantidade" id="new_quantidade" type="number" min="1" value="'.$quantidade.'" required><br>
         
-                <label class="label-form" for="img">Imagem</label><br>
-                <input class="input-form" name="img" id="img" type="text" placeholder="Link da imagem" value="'.$img.'" required><br>';
+                <label class="label-form" for="new_img">Imagem</label><br>
+                <input class="input-form" name="new_img" id="new_img" type="text" placeholder="Link da imagem" value="'.$img.'" required><br>';
     } catch (PDOException $e) {
         echo "Error: " . $e->getMessage();
     }
     $conn = null;
 }
-
 
 ?>
 
