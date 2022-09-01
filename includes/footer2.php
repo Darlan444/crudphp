@@ -1,4 +1,4 @@
-<?php include'header.php';?>
+<?php include'header2.php';?>
 
 <footer class="footer">
     <img class="img-footer" src="../img/REDLINE2.png" alt="LOGO">

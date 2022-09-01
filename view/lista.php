@@ -30,6 +30,5 @@ include '../model/lista-model.php';
         </table>
 
     </div>
-
+    
 </section>
-

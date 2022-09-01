@@ -7,6 +7,7 @@
 }
 body{
     width: auto;
+    height: auto;
 }
 /**RODAPÉ**/
 .footer {
@@ -150,7 +151,7 @@ header {
 }
 .img-card {
     position: absolute;
-    background-size: cover;
+    background-size: contain;
     max-width: 20rem;
     min-width: 20rem;
     max-height: 25rem;
@@ -274,7 +275,7 @@ header {
 /**TABELA**/
 .table-section {
     width: 100vw;
-    height: 50vh;
+    min-height: min-content;
     margin-top: 1rem;
     display: flex;
     justify-content: center;
@@ -323,6 +324,9 @@ th, td{
     text-align: center;
     margin: 2rem;
     border-bottom: solid 1px #a52a2a;
+}
+.h1-lista::selection{
+    background-color: #a52a2a;
 }
 
 /**ID PRA EDITAR**/
