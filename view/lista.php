@@ -30,5 +30,10 @@ include '../model/lista-model.php';
         </table>
 
     </div>
+
+    <div id="ex1" class="modal">
+        <p><?php echo $v['id']; ?></p>
+        <a href="#" rel="modal:close">Close</a>
+    </div>s
     
 </section>

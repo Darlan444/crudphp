@@ -24,13 +24,19 @@ function showLista()
                     <td scope="row">' . $v['quantidade'] . '</td>
                     <td scope="row">
                         <a class="btn btn-info btn-md" href="../view/editar.php?id=' . $v['id'] . '"><i class="fa fa-pencil"></i></a>                            
-                        <a class="btn btn-danger btn-md" href="../model/delete-mode.php?id=' . $v['id'] . '"><i class="fa fa-trash"></i></a></td>
+                        <a class="btn btn-danger btn-md" href="#ex1?id=' . $v['id'] . '" rel="modal:open" data-href="../model/delete-model.php?id=' . $v['id'] . '"><i class="fa fa-trash"></i></a></td>
                 </tr>';
         }
     } catch (PDOException $e) {
         echo "Error: " . $e->getMessage();
     }
     $conn = null;
+
+
 }
 ?>
+
+
+   
+
 

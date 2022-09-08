@@ -336,3 +336,9 @@ th, td{
 .id-edt{
     display: none;
 }
+
+
+#ex1{
+    width: 50vw;
+    height: 20vh;
+}
