@@ -274,8 +274,9 @@ header {
 
 /**TABELA**/
 .table-section {
-    width: 100vw;
+    min-width: 100vw;
     min-height: min-content;
+    height: auto;
     margin-top: 1rem;
     display: flex;
     justify-content: center;
@@ -286,9 +287,11 @@ header {
     justify-content: center;
     align-items: flex-start;
     width: 60vw;
+    height: auto;
+    margin-bottom: 2rem;
 }
 .table {
-    position: absolute;
+    position: relative;
     max-width: 70vw;
     min-width: 70vw;
     border: solid 1px #c43636!important;
