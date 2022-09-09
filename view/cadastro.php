@@ -30,9 +30,9 @@ include '../includes/header2.php';
         <input class="input-form" name="quantidade" id="quantidade" type="number" min="1" required><br>
 
         <label class="label-form" for="img">Imagem</label><br>
-        <input class="input-form" name="img" id="img" type="text" placeholder="Link da imagem" required><br>
+        <input class="input-form" name="img" id="img" type="file" required><br>
 
-        <button class="btn-form">Cadastrar</button>
+        <button class="btn-form" name="btn-cadastro" id="btn-cadastro">Cadastrar</button>
 
       </form>
     </section>
