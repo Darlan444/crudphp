@@ -37,3 +37,5 @@ include '../model/lista-model.php';
     </div>s
     
 </section>
+
+<?php include '../includes/footer2.php';?>
