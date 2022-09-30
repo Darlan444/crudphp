@@ -29,8 +29,8 @@ include '../includes/header2.php';
         <label class="label-form" for="quantidade">Quantidade</label><br>
         <input class="input-form" name="quantidade" id="quantidade" type="number" min="1" required><br>
 
-        <label class="label-form" for="img">Imagem</label><br>
-        <input class="input-form" name="img" id="img" type="file" required><br>
+        <label class="label-form" for="img">Link da Imagem</label><br>
+        <input class="input-form" name="img" id="img" type="text" required><br>
 
         <button class="btn-form" name="btn-cadastro" id="btn-cadastro">Cadastrar</button>
 
